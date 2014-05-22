@@ -14,13 +14,13 @@ class Fees < Sinatra::Base
 	#this is for County Court
 	get '/non-money-claims/county-court' do	
 	amount = 280.to_i
-	puts "amount is: £#{amount}."
+	"amount is: £#{amount}."
 	end
 
 	#this is for Possession Claims Online (PCOL)
 	get '/non-money-claims/claims-online' do	
 	amount = 250.to_i
-	puts "amount is: £#{amount}."
+	"amount is: £#{amount}."
 	end
 
 #General fees for civil proceedings
@@ -52,14 +52,14 @@ class Fees < Sinatra::Base
 	get '/hearing-fees/fast-track-claim' do
 	
 	amount = 545.to_i
-	puts "amount is: £#{amount}."
+	"amount is: £#{amount}."
 	end
 
 	#this is for Multi track claim
 	get '/hearing-fees/multi-track-claim' do
 	
 	amount = 1090.to_i
-	puts "amount is: £#{amount}."
+	"amount is: £#{amount}."
 	end
 
 	
