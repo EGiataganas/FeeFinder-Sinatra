@@ -7,7 +7,8 @@ class Fees < Sinatra::Base
 	#this is for High Court
 	get '/non-money-claims/high-court' do	
 	amount = 480.to_i
-	puts "amount is: £#{amount}."
+	"amount is: £#{amount}."
+	
 	end
 
 	#this is for County Court
